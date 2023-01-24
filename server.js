@@ -5,7 +5,7 @@ const path = require('path')
 const { urlencoded } = require('express')
 require('dotenv').config()
 
-const password = process.env.NODEMAILER_PASS
+const password = 'lndkvbvxkablapgr'
 const app = express()
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
